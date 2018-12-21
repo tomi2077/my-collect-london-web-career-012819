@@ -8,3 +8,8 @@ def my_collect(array)
   my_yield
 end
   
+def hamburger(toppings)
+  toppings.collect do |topping|
+    puts "I love #{topping} on my burgers!"
+  end
+end
