@@ -2,7 +2,7 @@ def my_collect(array)
   my_yield = []
   i = 0
   while i < array.length
-  yield(my_yield)
+  yield(my_yield[i])
   
 
 def hamburger(toppings)
